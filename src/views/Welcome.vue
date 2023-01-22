@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="welcome container">
+    <p>Welcome</p>
   </div>
 </template>
 
@@ -16,3 +15,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .welcome{
+    text-align: center;
+    padding:20px 0;
+  }
+</style>
+
